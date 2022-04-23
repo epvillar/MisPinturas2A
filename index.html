@@ -1,0 +1,83 @@
+<!--
+
+John Smilga - Vanilla Javascript Projects
+ https://www.youtube.com/watch?v=c5SIG7Ie0dM
+
+PROJECT OUR MENU - 2.16.00
+Code:
+https://github.com/john-smilga/javascript-basic-projects/blob/master/08-menu/final/index.html 
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>OUR MENU</title>
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"/>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+
+<body>
+  <section class="obras">
+      <!-- title -->
+      <div class="title">
+        <h2>Algunas de las Pinturas más Famosas</h2>
+        <div class="underline"></div>
+      </div>
+      <!-- 2.46.00 - filter buttons - un button para cada pintor - usamos 
+        data-id pero se puede reemplazar id por otra denominacion-->
+      <div class="btn-container">
+        <button type="button" class="filter-btn" type="button" data-id="all">all</button>
+        <button type="button" class="filter-btn" type="button" data-id="albers">Albers</button>
+        <button type="button" class="filter-btn" type="button" data-id="dali">Dali</button>
+        <button type="button" class="filter-btn" type="button" data-id="klimt">Klimt</button>
+        <button type="button" class="filter-btn" type="button" data-id="leonardo">Leonardo</button>
+        <button type="button" class="filter-btn" type="button" data-id="modigliani">modigliani</button>
+        <button type="button" class="filter-btn" type="button" data-id="monet">Monet</button>
+        <button type="button" class="filter-btn" type="button" data-id="picasso">Picasso</button>
+        <button type="button" class="filter-btn" type="button" data-id="rafael">Rafael</button>
+        <button type="button" class="filter-btn" type="button" data-id="van-gogh">Van Gogh</button>
+      </div>
+
+      <!-- menu items -->
+      <div class="section-center">
+        <!-- single item -->
+        <article class="obras-item">
+          <img src="./img/leonardo1.jpg" alt="item" class="photo" />
+          <div class="item-info">
+            <header>
+              <h4>Mona Lisa</h4>
+              <h4 class="pintor">Leonardo da Vinci</h4>
+            </header>
+            <p class="item-text">
+              Nació el 15-04-1452 en Italia, murió el 02-05-19 en Ambroise, Francia. Movimiento: Alto Renacimiento. Obras: 295
+            </p>
+          </div>
+        </article>
+      </div>
+    </section>
+    
+<script src="
+https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/js/all.min.js"></script> 
+<script src="pintores.js"></script>
+<script src="app.js"></script>
+
+</body>
+</html>
+  
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+
